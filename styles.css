@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+    background: linear-gradient(45deg, rgb(253,245,230, 0.5), rgb(253,245,230, 0.5)), url("./assets/purple-flower-tree.jpg"), no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 10rem;
+    padding: 10rem;
+}
