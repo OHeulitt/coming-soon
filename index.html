@@ -1,15 +1,177 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./styles.css">
-     <title>Olivia Heulitt Portfolio</title>
- </head>
- <body>
-     <header>
-         <h1>Coming Soon!</h1>
-     </header>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@300;400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="https://kit.fontawesome.com/d3ae8e7002.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+	<title>Olivia Heulitt Portfolio</title>
+	<link rel="shortcut icon" type="image/png" href="./assets/favicon-green.png" />
+</head>
+
+<body>
+	<header id="home">
+		<nav>
+			<ul class="nav-list wrapper">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact-me">Contact Me</a></li>
+			</ul>
+		</nav>
+		<div class="header-text">
+			<h1>Olivia Heulitt</h1>
+			<h2>web developer</h2>
+		</div>
+	</header>
+
+	<main>
+		<section id="about" class="about">
+			<div class="wrapper">
+				<h2>About Me</h2>
+				<div class="about-flex">
+					<div class="about-text">
+						<p>I got into web development to bring my life-long passion for inclusivity to the web. It all started with my baby sister who has special needs. She is my world and the internet should be safe and easy for her to navigate as well as anyone else. The internet is not just for hip, young people, it is for everyone!</p>
+						<p class="second-p"> When I am not coding, you can find me participating in local theatre, gardening, crafting, or reading books. My other loves are things pre-1982 (the older it is the more I love it) and all the nuggets: fluff, human, and chicken.</p>
+						<a href="">Resume</a>
+					</div>
+					<div class="image-container about-me-image">
+						<img src="./assets/me-rapunzel-viv.jpg" alt="my sister and myself posing with Rapunzel at Disneyland">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="skills">
+			<div class="wrapper">
+				<h2>My Skills</h2>
+				<ul class="skills-list">
+					<li>
+						<i class="fas fa-code" aria-hidden="true"></i>
+						<p>HTML</p>
+					</li>
+					<li>
+						<div class="css-icon" aria-hidden="true">{&nbsp;}</div>
+						<p>CSS</p>
+					</li>
+					<li>
+						<i class="fab fa-sass" aria-hidden="true"></i>
+						<p>SASS</p>
+					</li>
+					<li>
+						<i class="fab fa-js-square" aria-hidden="true"></i>
+						<p>JavaScript</p>
+					</li>
+					<li>
+						<i class="devicon-jquery-plain" aria-hidden="true"></i>
+						<p>jQuery</p>
+					</li>
+					<li>
+						<i class="fab fa-react" aria-hidden="true"></i>
+						<p>React</p>
+					</li>
+					<li>
+						<i class="fab fa-git-alt" aria-hidden="true"></i>
+						<p>Git</p>
+					</li>
+					<li>
+						<i class="fab fa-github-square" aria-hidden="true"></i>
+						<p>GitHub</p>
+					</li>
+					<li>
+						<i class="fas fa-cogs" aria-hidden="true"></i>
+						<p>RESTful API</p>
+					</li>
+					<li>
+						<i class="devicon-firebase-plain" aria-hidden="true"></i>
+						<p>Firebase</p>
+					</li>
+					<li>
+						<i class="fas fa-mobile-alt" aria-hidden="true"></i>
+						<p>Responsive</p>
+					</li>
+					<li>
+						<i class="fas fa-universal-access" aria-hidden="true"></i>
+						<p>Web Accessibility</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="projects" class="projects wrapper">
+				<h2>My Projects</h2>
+	
+				<article class="adventure">
+					<div class="image-container adventure-image">
+						<img src="./assets/find-my-adventure.jpg" alt="hiking trail through wildflowers and mountains">
+					</div>
+					<div class="article-text adventure-text">
+						<h3>Find My Adventure</h3>
+						<p>A jQuery app that utilizes the recreation.gov API to help find your next outing to a national park</p>
+						<a href="https://oheulitt.github.io/find-my-adventure/" target="_blank" rel="noopener noreferrer">Live Site</a> /
+						<a href="https://github.com/OHeulitt/find-my-adventure" target="_blank" rel="noopener noreferrer"> GitHub Repo</a>
+					</div>
+				</article>
+	
+				<article class="savvy">
+					<div class="image-container savvy-image">
+						<img src="./assets/savvy-gran.jpg" alt="old hand-addressed envelopes surrounded by flowers">
+					</div>
+					<div class="article-text savvy-text">
+						<h3>Savvy Gran's Address Book</h3>
+						<p>A React/Firebase app that saves addresses in a "modern" address book with grandma flair</p>
+						<a href="https://savvygran.netlify.app" target="_blank" rel="noopener noreferrer">Live Site</a> /
+						<a href="https://github.com/OHeulitt/olivia-heulitt-project3" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+					</div>
+				</article>
+	
+	
+				<article class="makeup">
+					<div class="image-container makeup-image">
+						<img src="./assets/makeup-your-mind.jpg" alt="makeup encircled with flowers">
+					</div>
+					<div class="article-text makeup-text">
+						<h3>Makeup Your Mind</h3>
+						<p>A Javascript app with a makeup API call that shows results based on products and filters - styled using SCSS. Pair programmed with <a href="https://emilypetracco.com/" target="_blank" rel="noopener noreferrer"> Emily Petracco</a></p>
+						<a href="https://emily-and-olivia.github.io/makeupYourMind/" target="_blank" rel="noopener noreferrer">Live Site</a> /
+						<a href="https://github.com/Emily-and-Olivia/makeupYourMind" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+					</div>
+				</article>
+		</section>
+	</main>
+
+	<!-- footer with contact links -->
+
+	<footer id="contact-me" class="contact-me">
+
+		<div class="wrapper">
+
+			<h2>My Contact Info</h2>
+
+			<div class="footer-links">
+
+				<address>
+					<a href="mailto:oheulitt120@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+				</address>
+				
+				<ul class="socials">
+					<li><a href="https://www.linkedin.com/in/olivia-heulitt-2b137a37/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+					<li><a href="https://github.com/OHeulitt" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+				</ul>
+
+			</div> <!--footer-links-->
+
+		</div> <!--wrapper-->
+
+	</footer>
+</body>
+
+</html>
