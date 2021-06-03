@@ -83,7 +83,7 @@ img {
 /* header styles */
 
 header {
-	background: url("./assets/rannunculus.jpg") left no-repeat;
+	background: url("./assets/rannunculus-1920.jpg") 20% 30% no-repeat;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
